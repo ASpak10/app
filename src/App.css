@@ -1,0 +1,31 @@
+body{
+  margin: 0 !important;
+  background: #f1f1f1;
+}
+.container{
+  height: 100vh;
+  /* background: greenyellow; */
+  display: flex;
+}
+.sidenav{
+  background: #fff;
+  width: 260px;
+  z-index: 999;
+  box-shadow: 1px 3px 8px #aaaaaa;
+}
+
+.container-page{
+  /* background: khaki; */
+  height: 100vh;
+  width: 100%;
+}
+.topnav{
+  background: white;
+  box-shadow: 1px 3px 8px #aaaaaa;
+  height: 50px;
+}
+.page{
+  /* background: lightblue; */
+  min-height: 620px;
+  padding: 10px 25px;
+}
